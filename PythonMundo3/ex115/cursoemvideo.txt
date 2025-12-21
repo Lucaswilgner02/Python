@@ -1,0 +1,4 @@
+paulo;1
+mauro;20
+Ana maria;15
+Raissa santos ;25

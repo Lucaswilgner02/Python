@@ -1,0 +1,10 @@
+n = input('\033[7;32mDIGITE ALGO:\033[m')
+print('\033[4;31mÉ letra?\033[m',n.isalpha())
+print('\033[4;32mÉ numero?\033[m', n.isnumeric())
+print('\033[4;33mÉ decimal?\033[m', n.isdecimal())
+print('\033[4;34msó tem espaços?\033[m', n.isspace())
+print('\033[4;35mÉ alfanumerico?\033[m', n.isalnum())
+print('\033[4;36mEstá em maiuscula?\033[m', n.isupper())
+print('\033[4;37mEsta em minuscula?\033[m', n.islower())
+print('\033[4mEsta capitalizada?', n.istitle())
+

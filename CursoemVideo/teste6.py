@@ -1,0 +1,6 @@
+p=float(input('Digite o valor do produto:R$ '))
+va=p-(p*10/100)
+vp=p+(p*8/100)
+print('O produto que custa R${:.2f}'.format(p))
+print('se pago a vista com desconto de 10% custará R${:.2f}'.format(va))
+print('E se for pago parcelado tera um aumento de 8% e custara R${:.2f}.'.format(vp))
